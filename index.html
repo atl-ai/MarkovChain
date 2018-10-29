@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Markov Chain Generator</title>
+
+    <!-- CSS -->
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/skeleton.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body class="hero">
+    <div class="section title">
+      <div class="container">
+        <div class="row">
+          <div class="column">
+            <h1 class="hero-heading">Markov Chain Generator</h1>
+            <a id="gen" class="button button-primary">Generate Matrix</a>
+            <a id="chain" class="button button-primary">Generate Chain</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="column">
+            <p>Matrix Status: <span id="status" class="status"></span></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="column">
+            <a id="sithNames" class="button">Sith</a>
+            <a id="spaceName" class="button">Futuristic</a>
+            <a id="pirateNames" class="button">Pirate</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section inputs">
+      <div class="container">
+        <div class="row">
+          <div class="one-half column well">
+            <textarea id="input" class="io" placeholder="Paste data here..." autofocus="true"></textarea>
+          </div>
+          <div class="one-half column well">
+            <textarea id="output" class="io" placeholder="Waiting for data..." readonly></textarea>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <!-- JS -->
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/main.js"></script>
+</html>
