@@ -1,7 +1,7 @@
-# markov
+# Markov Chain
 Markov Chain Generator
 
-https://blackatlasstudio.github.io/markov/
+https://atl.ai/markovchain/
 
 Paste data into the left-hand box then generate a new matrix. From there you can generate more chains using the generate chains button.
 
